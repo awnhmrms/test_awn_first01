@@ -13,6 +13,8 @@
 get_header();
 
 echo '<div>aaa</div>';
+echo '<div>bbbb</div>';
+echo '<div>cccc</div>';
 /* Start the Loop */
 while (have_posts()) :
 	the_post();
